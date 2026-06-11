@@ -1,0 +1,14 @@
+benchmark_date=2026-06-11T06:25:40Z
+go_version=go version go1.26.4 windows/amd64
+os=MINGW64_NT-10.0-26200
+machine=x86_64
+input=ad_data.csv
+output=results
+command=bin/aggregator --input ad_data.csv --output results
+---
+timer=shell time (peak memory unavailable)
+processed_rows=26843544 valid_rows=26843544 invalid_rows=0 campaigns=50
+
+real	0m5.291s
+user	0m0.015s
+sys	0m0.000s
