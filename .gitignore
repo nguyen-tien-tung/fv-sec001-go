@@ -1,7 +1,6 @@
 # Go build artifacts
 /bin/
 /dist/
-aggregator
 aggregator.exe
 *.test
 *.out
